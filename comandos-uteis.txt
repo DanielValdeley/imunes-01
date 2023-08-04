@@ -1,0 +1,18 @@
+
+// s: servidor, u: protocolo udp
+iperf -s -u
+
+// gerar trafego
+// c: cliente, u: protocolo udp
+iperf -c 0.0.0.0 -u
+
+// controle de tranferencia
+// b: taxa
+iperf -c 0.0.0.0 -u -b 10kbps
+
+// limitar tempo
+// t: tempo
+// i: reportar o que esta fazendo em 5 e 5s dentro do time total de 30s
+iperf -c 0.0.0.0 -u -b 10kbps -t 30 -i 5
+
+// para TCP tira o -u
