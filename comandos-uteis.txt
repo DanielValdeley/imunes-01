@@ -16,3 +16,7 @@ iperf -c 0.0.0.0 -u -b 10kbps
 iperf -c 0.0.0.0 -u -b 10kbps -t 30 -i 5
 
 // para TCP tira o -u
+
+--
+obs.: pequenas amostras, ou seja 5 repeticoes utilizar o tstudio
+senao utilize a normal para muitas amostras
