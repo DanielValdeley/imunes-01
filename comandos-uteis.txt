@@ -20,3 +20,10 @@ iperf -c 0.0.0.0 -u -b 10kbps -t 30 -i 5
 --
 obs.: pequenas amostras, ou seja 5 repeticoes utilizar o tstudio
 senao utilize a normal para muitas amostras
+
+--
+Dicas em sala de aula:
+- Trhoublehooting: descoberta de problemas na rede por exemplo
+
+- Trabalho ficou focado em cima da vazão
+- Modo Promíscuo: significa que pode-se capturar tudo (recebe de todo mundo) que passa pela interface (tcpdump faz isso)
